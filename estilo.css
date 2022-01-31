@@ -1,0 +1,58 @@
+@import url(reset.css);
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+h3, h4 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+.container {
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.cartao {
+    width: 18rem;
+    border-radius: 10px;
+    border: 1px solid #00000040;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin: 1rem auto;
+}
+
+.cartao-imagem {
+    width: 18rem;
+    border-radius: 10px;
+    border: 1px solid #00000040;
+    box-sizing: border-box;
+    margin: 1rem auto;
+    overflow: hidden;
+}
